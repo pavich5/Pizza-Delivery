@@ -1,0 +1,46 @@
+.footerContainer {
+  max-height: 400px;
+  background-color: #222;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  }
+  
+ 
+
+  .card {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .title {
+    font-size: 18px;
+    color: #b7903c;
+  }
+  
+  .text {
+    color: lightgray;
+  }
+  
+  .motto {
+    color: rgb(211, 211, 211);
+  }
+  @media screen and (max-width: 480px) {
+    .footerContainer {
+      text-align: center;
+     
+    }
+    
+    .card:first-child {
+      display: none;
+    }
+  
+    .card {
+      padding: 0;
+    }
+  
+    .title {
+      font-size: 25px;
+    }
+  

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "image": "https://pngimg.com/d/pizza_PNG43993.png",
+    "title": "Hawaiian Pizza",
+    "description": "Fresh tomatoes, mozzarella cheese, and basil",
+    "price": 9.99,
+    "category": "vegetarian"
+  },
+  {
+    "id": 2,
+    "image": "https://pngimg.com/d/pizza_PNG43993.png",
+    "title": "Pepperoni Pizza",
+    "description": "Classic pepperoni with extra cheese for cheese lovers",
+    "price": 11.99,
+    "category": "gluten"
+  },
+  {
+    "id": 3,
+    "image": "https://pngimg.com/d/pizza_PNG43993.png",
+    "title": "Hawaiian Pizza",
+    "description": "Ham, pineapple, and mozzarella cheese",
+    "price": 10.99,
+    "category": "vegetarian"
+  },
+  {
+    "id": 4,
+    "image": "https://www.pngmart.com/files/1/Pepperoni-Pizza-PNG-Transparent-Image.png",
+    "title": "Supreme Pizza",
+    "description": "Pepperoni, sausage, bell peppers, onions, and olives",
+    "price": 12.99,
+    "category": ""
+  },
+  {
+    "id": 5,
+    "image": "https://www.pngmart.com/files/1/Pepperoni-Pizza-PNG-Image.png",
+    "title": "BBQ Chicken Pizza",
+    "description": "Grilled chicken, barbecue sauce, red onions, and cilantro",
+    "price": 11.99,
+    "category": "spicy"
+  },
+  {
+    "id": 6,
+    "image": "https://www.pngmart.com/files/1/Pepperoni-Pizza-PNG-Image.png",
+    "title": "Vegetarian Pizza",
+    "description": "Fresh vegetables, mushrooms, and mozzarella cheese",
+    "price": 10.99,
+    "category": "vegetarian"
+  },
+  {
+    "id": 7,
+    "image": "https://www.pngmart.com/files/1/Pepperoni-Pizza-PNG-Transparent-Image.png",
+    "title": "Meat Lover's Pizza",
+    "description": "Pepperoni, sausage, bacon, and ground beef",
+    "price": 12.99,
+    "category": "gluten-free"
+  },
+  {
+    "id": 8,
+    "image": "https://www.pngmart.com/files/1/Pepperoni-Pizza-PNG-Image.png",
+    "title": "Mediterranean Pizza",
+    "description": "Spinach, feta cheese, black olives, and tomatoes",
+    "price": 10.99,
+    "category": "vegetarian"
+  },
+  {
+    "id": 9,
+    "image": "https://pngimg.com/d/pizza_PNG43993.png",
+    "title": "Buffalo Chicken Pizza",
+    "description": "Spicy buffalo sauce, grilled chicken, and blue cheese",
+    "price": 11.99,
+    "category": "spicy"
+  },
+  {
+    "id": 10,
+    "image": "https://pngimg.com/d/pizza_PNG43993.png",
+    "title": "Four Cheese Pizza",
+    "description": "Mozzarella, cheddar, feta, and parmesan cheeses",
+    "price": 10.99,
+    "category": "spicy"
+  },
+  {
+    "id": 11,
+    "image": "https://pngimg.com/d/pizza_PNG43993.png",
+    "title": "Buffalo Chicken Pizza",
+    "description": "Spicy buffalo sauce, grilled chicken, and blue cheese",
+    "price": 11.99,
+    "category": "spicy"
+  },
+  {
+    "id": 12,
+    "image": "https://pngimg.com/d/pizza_PNG43993.png",
+    "title": "Four Cheese Pizza",
+    "description": "Mozzarella, cheddar, feta, and parmesan cheeses",
+    "price": 10.99,
+    "category": "vegetarian"
+  }
+]

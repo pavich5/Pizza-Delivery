@@ -1,0 +1,29 @@
+.PizzaList {
+    display: flex;
+    flex-direction: column;
+  }
+  .PizzaList p {
+    margin: 0;
+  }
+  
+  .PizzaList img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .PizzaList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .PizzaList img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+
+  
