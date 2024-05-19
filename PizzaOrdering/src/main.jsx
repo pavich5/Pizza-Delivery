@@ -1,15 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom';
-import { PizzaProvider } from './Context/PizzaContext';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import { PizzaProvider } from "./Context/PizzaContext";
 
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-      <PizzaProvider>
+    <PizzaProvider>
       <App />
     </PizzaProvider>
   </BrowserRouter>
- ,
-  document.getElementById('root')
 );
