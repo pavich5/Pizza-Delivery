@@ -1,5 +1,5 @@
 {
-  "name": "PizzaOrdering",
+  "name": "pizza",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,14 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.1",
-    "@splidejs/react-splide": "^0.7.12",
-    "@splidejs/splide": "^4.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "react-router-dom": "^6.14.2"
+    "react-router-dom": "^6.14.2",
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
