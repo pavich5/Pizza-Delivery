@@ -153,24 +153,25 @@
 }
 
 .addToCardButton:disabled {
-  opacity: 0.5; /* Example styling for disabled button */
-  cursor: not-allowed; /* Example styling for disabled button */
+  opacity: 0.5; 
+  cursor: not-allowed;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .PizzaDetails {
     height: auto;
-    width: 600px;
+    max-width: 100vw;
     text-align: center;
     flex-direction: column;
-    margin-bottom: 20px; /* Add margin-bottom to avoid overlapping with the footer */
+    margin-bottom: 20px; 
+    overflow: hidden;
   }
 
   .pizzaDetailsImage img {
     width: 400px;
     height: 300px;
     margin-top: 0px;
-    margin-left: 50px;
+  margin-right: 0;    
   }
 
   .pizzaInformations {
@@ -179,19 +180,12 @@
     flex-direction: column;
     align-items: center;
     margin-left: 0;
-    margin-right: 30px;
   }
   .pizzaSizeLabel {
     text-align: center;
   }
-  .pizzaSizeImages {
-    margin-left: 300px;
-  }
   .Ingredients {
     flex-direction: column;
-  }
-  .footerContainer {
-    width: 550px;
   }
   .option {
     margin: 10px;
@@ -213,6 +207,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    align-items: center;
   }
 }
 

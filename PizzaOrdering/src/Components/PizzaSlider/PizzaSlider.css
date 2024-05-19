@@ -75,11 +75,10 @@
 @media screen and (max-width: 768px) {
   .pizza-card {
     display: flex;
-    min-width: 560px;
     flex-direction: column;
     align-items: left;
     margin-left: 0;
-    margin-right: 40px;
+    align-items: center;
   }
 
   .pizza-image img {

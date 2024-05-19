@@ -144,7 +144,7 @@
   }
 
   .cart-table {
-    max-width: 480px;
+    min-width: 90vw;
     margin-right: 0;
   }
 
@@ -255,6 +255,9 @@
     border: 1px solid #ddd;
     border-radius: 6px;
     overflow: hidden;
+    max-width: 90vw;
+    display: flex;
+    align-items: center;
   }
 
   .cart-item img {
@@ -296,13 +299,13 @@
     align-items: center;
   }
   tbody .cart-item td .item-image img {
-    margin-left: 105px;
+    margin-left: 20px;
   }
   .cardTotal {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 190px;
+    width: 90vw;
   }
   .checkout-button {
     max-width: 160px;
