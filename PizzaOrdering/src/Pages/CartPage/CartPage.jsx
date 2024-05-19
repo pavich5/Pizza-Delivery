@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
 import "./CartPage.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import PizzaContext from "../../Context/PizzaContext";
 const CartPage = () => {
-const { removeFromCart ,pizzas,getPizzasInCart } = useContext(PizzaContext);
+  const { removeFromCart, pizzas, getPizzasInCart } = useContext(PizzaContext);
   const pizzasInCart = getPizzasInCart();
   const subtotal = pizzasInCart.reduce((total, pizza) => {
     return total + pizza.price * pizza.quantity;
@@ -42,8 +40,7 @@ const { removeFromCart ,pizzas,getPizzasInCart } = useContext(PizzaContext);
                       "") +
                     ((pizza.ingredients.garlicSauce && "Garlic Sauce, ") ||
                       "") +
-                    ((pizza.ingredients.spicySauce && "Spicy Sauce, ") ||
-                      "") ||
+                    ((pizza.ingredients.spicySauce && "Spicy Sauce, ") || "") ||
                     "None"}
                 </td>
                 <td>{pizza.size}</td>
@@ -64,11 +61,8 @@ const { removeFromCart ,pizzas,getPizzasInCart } = useContext(PizzaContext);
         </table>
       ) : (
         <div className="noItems">
-            <p className="empty-cart">
-  <FontAwesomeIcon icon={faShoppingCart} /> No pizzas in the cart
-</p>
+          <p className="empty-cart">No pizzas in the cart</p>
         </div>
-
       )}
       <div className="cardTotal">
         <h2>Card Total</h2>
