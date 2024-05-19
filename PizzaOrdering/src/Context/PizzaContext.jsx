@@ -13,9 +13,6 @@ export const PizzaProvider = props => {
     const [pizzas, setPizzas] = useState([]);
     const [addedPizzas, setAddedPizzas] = useState([]);
   
-    useEffect(()=>{
-        console.log('this is from the contex');
-    },[])
     useEffect(() => {
       setPizzas(pizzaData);
       const storedPizzas = localStorage.getItem('addedPizzas');

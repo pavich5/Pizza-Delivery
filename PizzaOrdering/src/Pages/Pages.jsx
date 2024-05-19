@@ -5,7 +5,6 @@ import PizzaDetails from './PizzaDetails/PizzaDetails';
 import CartPage from './CartPage/CartPage';
 import '../Pages.css'
 import ContactUs from './ContactUs/ContactUs';
-import PizzaList from '../Components/PizzaList/PizzaList';
 import MenuPage from './MenuPage/MenuPage';
 const Pages = ({
   pizzas,
